@@ -47,6 +47,9 @@
                         <div class="col-xs-9 col-xs-push-1">
                             <button type="submit" class="btn btn-success btn-lg btn-block btn-trans">{{ trans('dashboard.login.login') }}</button>
                         </div>
+                        <div class="col-xs-9 col-xs-push-1">
+                            <button type="submit" class="btn btn-success btn-lg btn-block btn-trans">{{ trans('dashboard.login.oidc') }}</button>
+                        </div>
                     </div>
                 </div>
             </form>
