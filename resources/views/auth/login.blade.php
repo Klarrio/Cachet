@@ -7,7 +7,7 @@
     <div class="row">
         <div class="form-bg">
             <div class="logo">
-                <img src="{{ asset('/img/cachet-logo@2x.png') }}" class="img-responsive">
+                <img src="{{ asset('/img/KPN-Logo-230x60.png') }}" class="img-responsive">
             </div>
 
             <form method="POST" action="{{ cachet_route('auth.oidc', [], 'post') }}" accept-charset="UTF-8" autocomplete="off" name="{{ str_random(10) }}">
@@ -64,9 +64,6 @@
                         </div>
                         <div class="col-xs-9 col-xs-push-1">
                             <button type="submit" class="btn btn-success btn-lg btn-block btn-trans">{{ trans('dashboard.login.login') }}</button>
-                        </div>
-                        <div class="col-xs-9 col-xs-push-1">
-                            <button type="submit" class="btn btn-success btn-lg btn-block btn-trans">{{ trans('dashboard.login.oidc') }}</button>
                         </div>
                     </div>
                 </div>
