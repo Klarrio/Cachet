@@ -72,6 +72,16 @@ class AuthController extends Controller
         return cachet_redirect('auth.login')
             ->withInput(Binput::except('password'))
             ->withError(trans('forms.login.invalid'));
+    }    
+
+    /**
+     * Logs the user in.
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function oidcLogin()
+    {
+        return Redirect::intended(cachet_route('dashboard'));
     }
 
     /**

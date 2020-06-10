@@ -10,6 +10,24 @@
                 <img src="{{ asset('/img/cachet-logo@2x.png') }}" class="img-responsive">
             </div>
 
+            <form method="POST" action="{{ cachet_route('auth.oidc', [], 'post') }}" accept-charset="UTF-8" autocomplete="off" name="{{ str_random(10) }}">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+                @if(Session::has('error'))
+                <div class="alert alert-danger">
+                    <p>{{ Session::get('error') }}</p>
+                </div>
+                @endif
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-9 col-xs-push-1">
+                                <button type="submit" class="btn btn-success btn-lg btn-block btn-trans">{{ trans('dashboard.login.oidc') }}</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
             <form method="POST" action="{{ cachet_route('auth.login', [], 'post') }}" accept-charset="UTF-8" autocomplete="off" name="{{ str_random(10) }}">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 

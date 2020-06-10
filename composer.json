@@ -40,12 +40,15 @@
         "alt-three/validator": "^4.1",
         "aws/aws-sdk-php": "^3.7",
         "barryvdh/laravel-cors": "^0.11.0",
+        "bshaffer/oauth2-server-php": "~1.8.0",
+        "bshaffer/oauth2-server-httpfoundation-bridge": "v1.1",
         "chillerlan/php-qrcode": "^2.0",
         "doctrine/dbal": "2.9.*",
         "fideloper/proxy": "^4.0",
         "graham-campbell/binput": "^6.0",
         "graham-campbell/exceptions": "^11.1",
         "graham-campbell/markdown": "^10.2",
+        "guzzle/guzzle": "~3.7",
         "guzzlehttp/guzzle": "^6.3.3",
         "jenssegers/date": "^3.4",
         "laravel/framework": "5.7.*",
@@ -54,6 +57,8 @@
         "nexmo/client": "^1.5",
         "pragmarx/google2fa": "^5.0",
         "predis/predis": "^1.1",
+        "silex/silex": "1.2.*@dev",
+        "symfony/twig-bridge": "2.1.*",
         "twig/twig": "^2.6"
     },
     "require-dev": {
@@ -78,6 +83,9 @@
         "files": [
             "app/helpers.php"
         ],
+        "psr-0": {
+            "OAuth2Demo": "src/"
+        },
         "psr-4": {
             "CachetHQ\\Cachet\\": "app/"
         }

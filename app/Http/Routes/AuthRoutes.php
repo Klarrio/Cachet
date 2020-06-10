@@ -52,6 +52,12 @@ class AuthRoutes
                 'uses'       => 'AuthController@postLogin',
             ]);
 
+            $router->post('oidc', [
+                'as'         => 'post:auth.oidc',
+                'middleware' => ['guest', 'throttle:10,10'],
+                'uses'       => 'AuthController@oidcLogin',
+            ]);
+
             $router->get('2fa', [
                 'as'   => 'get:auth.two-factor',
                 'uses' => 'AuthController@showTwoFactorAuth',
