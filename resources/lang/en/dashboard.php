@@ -261,6 +261,7 @@ return [
     // Login
     'login' => [
         'login'      => 'Login',
+        'oidc'       => 'Login with OIDC',
         'logged_in'  => 'You\'re logged in.',
         'welcome'    => 'Welcome back!',
         'two-factor' => 'Please enter your token.',

@@ -46,6 +46,7 @@
         "graham-campbell/binput": "^6.0",
         "graham-campbell/exceptions": "^11.1",
         "graham-campbell/markdown": "^10.2",
+        "guzzle/guzzle": "~3.7",
         "guzzlehttp/guzzle": "^6.3.3",
         "jenssegers/date": "^3.4",
         "laravel/framework": "5.7.*",
@@ -54,6 +55,8 @@
         "nexmo/client": "^1.5",
         "pragmarx/google2fa": "^5.0",
         "predis/predis": "^1.1",
+        "silex/silex": "1.2.*@dev",
+        "symfony/twig-bridge": "2.1.*",
         "twig/twig": "^2.6"
     },
     "require-dev": {
