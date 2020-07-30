@@ -193,10 +193,10 @@ class StatusPageController extends AbstractApiController
         $component = AutoPresenter::decorate($component);
 
         switch ($component->status_color) {
-            case 'reds': $color = Config::get('setting.style_reds', '#FF6F6F'); break;
-            case 'blues': $color = Config::get('setting.style_blues', '#3498DB'); break;
-            case 'greens': $color = Config::get('setting.style_greens', '#7ED321'); break;
-            case 'yellows': $color = Config::get('setting.style_yellows', '#F7CA18'); break;
+            case 'reds': $color = Config::get('setting.style_reds', '#e52e2e'); break;
+            case 'blues': $color = Config::get('setting.style_blues', '#0077cc'); break;
+            case 'greens': $color = Config::get('setting.style_greens', '#009900'); break;
+            case 'yellows': $color = Config::get('setting.style_yellows', '#FFBB55'); break;
             default: $color = null;
         }
 
