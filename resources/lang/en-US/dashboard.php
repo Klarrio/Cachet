@@ -35,7 +35,7 @@ return [
                 'failure' => 'Something went wrong updating the incident update',
             ],
         ],
-        'reported_by'              => 'Reported by :user',
+        'reported_by'              => 'Reported :timestamp by :user',
         'add'                      => [
             'title'   => 'Report an incident',
             'success' => 'Incident added.',
@@ -261,6 +261,7 @@ return [
     // Login
     'login' => [
         'login'      => 'Login',
+        'oidc'       => 'Login with OIDC',
         'logged_in'  => 'You\'re logged in.',
         'welcome'    => 'Welcome Back!',
         'two-factor' => 'Please enter your token.',

@@ -35,7 +35,7 @@ return [
                 'failure' => 'Er is een fout opgetreden bij het wijzigen van de incident update',
             ],
         ],
-        'reported_by'              => 'Gemeld door :user',
+        'reported_by'              => 'Reported :timestamp by :user',
         'add'                      => [
             'title'   => 'Meld een incident',
             'success' => 'Incident toegevoegd.',
@@ -261,6 +261,7 @@ return [
     // Login
     'login' => [
         'login'      => 'Login',
+        'oidc'       => 'Login via OIDC',
         'logged_in'  => 'U bent ingelogd.',
         'welcome'    => 'Welkom Terug!',
         'two-factor' => 'Voer uw token in.',

@@ -42,7 +42,7 @@
                             <span class="stats-label">{{ trans('dashboard.incidents.incidents') }}</span>
                         </div>
                         <div class="stats-chart">
-                            <div class="sparkline" data-type="line" data-resize="true" data-height="80" data-width="100%" data-line-width="2" data-min-spot-color="#e65100" data-max-spot-color="#ffb300" data-line-color="#3498db" data-spot-color="#00838f" data-fill-color="#3498db" data-highlight-line-color="#00acc1" data-highlight-spot-color="#ff8a65" data-spot-radius="false" data-data="[{{ $incidents->map(function ($incident) { return count($incident); } )->implode(',') }}]"></div>
+                            <div class="sparkline" data-type="line" data-resize="true" data-height="80" data-width="100%" data-line-width="2" data-min-spot-color="#e65100" data-max-spot-color="#ffb300" data-line-color="#0077cc" data-spot-color="#00838f" data-fill-color="#0077cc" data-highlight-line-color="#00acc1" data-highlight-spot-color="#ff8a65" data-spot-radius="false" data-data="[{{ $incidents->map(function ($incident) { return count($incident); } )->implode(',') }}]"></div>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                             <span class="stats-label">{{ trans('dashboard.subscribers.subscribers') }}</span>
                         </div>
                         <div class="stats-chart">
-                            <div class="sparkline" data-type="line" data-resize="true" data-height="80" data-width="100%" data-line-width="2" data-min-spot-color="#e65100" data-max-spot-color="#ffb300" data-line-color="#3498db" data-spot-color="#00838f" data-fill-color="#3498db" data-highlight-line-color="#00acc1" data-highlight-spot-color="#ff8a65" data-spot-radius="false" data-data="[{{ $subscribers->map(function ($subscriber) { return count($subscriber); } )->implode(',') }}]"></div>
+                            <div class="sparkline" data-type="line" data-resize="true" data-height="80" data-width="100%" data-line-width="2" data-min-spot-color="#e65100" data-max-spot-color="#ffb300" data-line-color="#0077cc" data-spot-color="#00838f" data-fill-color="#0077cc" data-highlight-line-color="#00acc1" data-highlight-spot-color="#ff8a65" data-spot-radius="false" data-data="[{{ $subscribers->map(function ($subscriber) { return count($subscriber); } )->implode(',') }}]"></div>
                         </div>
                     </div>
                 </div>

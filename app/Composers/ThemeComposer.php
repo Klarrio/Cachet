@@ -50,18 +50,18 @@ class ThemeComposer
      */
     public function compose(View $view)
     {
-        $view->withThemeBackgroundColor($this->config->get('setting.style_background_color', '#F0F3F4'));
+        $view->withThemeBackgroundColor($this->config->get('setting.style_background_color', '#f7fcfc'));
         $view->withThemeBackgroundFills($this->config->get('setting.style_background_fills', '#FFFFFF'));
         $view->withThemeBannerBackgroundColor($this->config->get('setting.style_banner_background_color', ''));
         $view->withThemeBannerPadding($this->config->get('setting.style_banner_padding', '40px 0'));
         $view->withThemeTextColor($this->config->get('setting.style_text_color', '#333333'));
-        $view->withThemeReds($this->config->get('setting.style_reds', '#FF6F6F'));
-        $view->withThemeBlues($this->config->get('setting.style_blues', '#3498DB'));
-        $view->withThemeGreens($this->config->get('setting.style_greens', '#7ED321'));
-        $view->withThemeYellows($this->config->get('setting.style_yellows', '#F7CA18'));
-        $view->withThemeOranges($this->config->get('setting.style_oranges', '#FF8800'));
+        $view->withThemeReds($this->config->get('setting.style_reds', '#e52e2e'));
+        $view->withThemeBlues($this->config->get('setting.style_blues', '#0077cc'));
+        $view->withThemeGreens($this->config->get('setting.style_greens', '#009900'));
+        $view->withThemeYellows($this->config->get('setting.style_yellows', '#FFBB55'));
+        $view->withThemeOranges($this->config->get('setting.style_oranges', '#ff9900'));
         $view->withThemeGreys($this->config->get('setting.style_greys', '#888888'));
-        $view->withThemeMetrics($this->config->get('setting.style_metrics', '#0DCCC0'));
-        $view->withThemeLinks($this->config->get('setting.style_links', '#7ED321'));
+        $view->withThemeMetrics($this->config->get('setting.style_metrics', ' #99CCFF'));
+        $view->withThemeLinks($this->config->get('setting.style_links', '#009900'));
     }
 }
