@@ -25,7 +25,7 @@ define('CACHET_VERSION', trim(file_get_contents(__DIR__.'/../VERSION')));
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
