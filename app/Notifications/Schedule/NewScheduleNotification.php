@@ -72,6 +72,7 @@ class NewScheduleNotification extends Notification implements ShouldQueue
         $content = trans('notifications.schedule.new.mail.content', [
             'name' => $this->schedule->name,
             'date' => $this->schedule->scheduled_at_formatted,
+            'app_name' => Config::get('setting.app_name'),
         ]);
 
         return (new MailMessage())
