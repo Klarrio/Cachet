@@ -64,7 +64,7 @@ return [
             'mail' => [
                 'subject' => ':app_name : DSH Maintenance window announcement',
                 'content' => ':name is scheduled for :date',
-                'title'   => 'A new DSH maintenance schedule was announced.',
+                'title'   => 'A new DSH maintenance schedule is announced.',
                 'action'  => 'View',
             ],
             'slack' => [
