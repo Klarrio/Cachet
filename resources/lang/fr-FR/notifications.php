@@ -63,16 +63,16 @@ return [
         'new' => [
             'mail' => [
                 'subject' => ':app_name : DSH Maintenance window announcement',
-                'content' => ':name was scheduled for :date',
+                'content' => ':name is scheduled for :date',
                 'title'   => 'A new DSH maintenance schedule was announced.',
                 'action'  => 'View',
             ],
             'slack' => [
                 'title'   => 'New Schedule Created!',
-                'content' => ':name was scheduled for :date',
+                'content' => ':name is scheduled for :date',
             ],
             'sms' => [
-                'content' => ':name was scheduled for :date',
+                'content' => ':name is scheduled for :date',
             ],
         ],
     ],
