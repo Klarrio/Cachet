@@ -4,7 +4,7 @@
 {{ $content }}
 
 Regards, Team DSH
-
+@include('notifications.partials.logo')
 @include('notifications.partials.subscription')
 
 @endcomponent
