@@ -3,8 +3,8 @@
 
 {{ $content }}
 
-@lang('Thanks,')<br>
-{{ Config::get('setting.app_name') }}
+Regards, Team DSH
+@include('notifications.partials.logo')
 
 @include('notifications.partials.subscription')
 
