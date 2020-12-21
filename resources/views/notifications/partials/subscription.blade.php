@@ -1,3 +1,3 @@
 @component('mail::subcopy')
-[{{ $unsubscribeText }}]({{ $unsubscribeUrl }}) &mdash; [{{ $manageSubscriptionText }}]({{ $manageSubscriptionUrl }})
+[{{ $unsubscribeText }}]({{ $unsubscribeUrl }})
 @endcomponent

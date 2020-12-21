@@ -66,7 +66,7 @@ final class ScheduleWasCreatedEvent implements ActionInterface, ScheduleEventInt
      */
     public function __toString()
     {
-        return 'Schedule was created.';
+        return 'Schedule is created.';
     }
 
     /**

@@ -75,7 +75,9 @@ class NewScheduleNotification extends Notification implements ShouldQueue
         ]);
 
         return (new MailMessage())
-            ->subject(trans('notifications.schedule.new.mail.subject'))
+            ->subject(trans('notifications.schedule.new.mail.subject', [
+                'app_name'               => setting('app_name')
+            ]))
             ->markdown('notifications.schedule.new', [
                 'content'                => $content,
                 'unsubscribeText'        => trans('cachet.subscriber.unsubscribe'),

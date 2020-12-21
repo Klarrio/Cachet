@@ -43,7 +43,8 @@
 @if (! empty($salutation))
 {{ $salutation }}
 @else
-@lang('Regards'),<br>{{ setting('app_name', config('app.name')) }}
+Regards, Team DSH
+@include('notifications.partials.logo')
 @endif
 
 {{-- Subcopy --}}
