@@ -132,7 +132,7 @@ class MetricRepository
         $pointKey = $dateTime->format('Y-m-d H:00');
         $points = $this->repository->getPointsSinceDay($metric, 7)->pluck('value', 'key');
 
-        for ($i = 0; $i < 7; $i++) {
+        for ($i = 0; $i <= 7; $i++) {
             if (!$points->has($pointKey)) {
                 $points->put($pointKey, $metric->default_value);
             }
@@ -159,7 +159,7 @@ class MetricRepository
         $daysInMonth = $dateTime->format('t');
         $points = $this->repository->getPointsSinceDay($metric, $daysInMonth)->pluck('value', 'key');
 
-        for ($i = 0; $i < $daysInMonth; $i++) {
+        for ($i = 0; $i <= $daysInMonth; $i++) {
             if (!$points->has($pointKey)) {
                 $points->put($pointKey, $metric->default_value);
             }
