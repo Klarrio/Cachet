@@ -14,12 +14,6 @@
     "aws/aws-sdk-php": {
         "version": "3.212.0"
     },
-    "barryvdh/laravel-cors": {
-        "version": "v3.0.0"
-    },
-    "barryvdh/laravel-debugbar": {
-        "version": "v3.6.7"
-    },
     "brick/math": {
         "version": "0.9.3"
     },

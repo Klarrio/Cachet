@@ -174,7 +174,6 @@ return [
          * Packages Service Providers...
          */
         env('APP_DEBUG') ? Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class : null,
-        Barryvdh\Cors\ServiceProvider::class,
         env('APP_DEBUG') ? Barryvdh\Debugbar\ServiceProvider::class : null,
         GrahamCampbell\Binput\BinputServiceProvider::class,
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
