@@ -75,8 +75,6 @@ class ApiRoutes
                 $router->post('schedules', 'ScheduleController@store');
                 $router->post('subscribers', 'SubscriberController@store');
 
-                $router->put('components/groups/{component_group}', 'ComponentGroupController@update');
-                $router->put('components/{component}', 'ComponentController@update');
                 $router->put('incidents/{incident}', 'IncidentController@update');
                 $router->put('incidents/{incident}/updates/{update}', 'IncidentUpdateController@update');
                 $router->put('metrics/{metric}', 'MetricController@update');
