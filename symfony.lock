@@ -20,6 +20,9 @@
     "barryvdh/laravel-cors": {
         "version": "v0.11.4"
     },
+    "barryvdh/laravel-debugbar": {
+        "version": "v3.6.7"
+    },
     "bugsnag/bugsnag": {
         "version": "v3.27.0"
     },
@@ -172,6 +175,9 @@
     },
     "league/mime-type-detection": {
         "version": "1.9.0"
+    },
+    "maximebf/debugbar": {
+        "version": "v1.18.0"
     },
     "mccool/laravel-auto-presenter": {
         "version": "7.7.0"
