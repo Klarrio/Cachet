@@ -33,6 +33,8 @@
         "ext-mbstring": "*",
         "ext-openssl": "*",
         "ext-xml": "*",
+        "cachethq/badger": "^2.0.0",
+        "cachethq/twitter": "^3.0.0",
         "alt-three/bus": "^4.5.0",
         "alt-three/validator": "^4.5.0",
         "aws/aws-sdk-php": "^3.7",

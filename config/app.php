@@ -174,9 +174,8 @@ return [
          * Packages Service Providers...
          */
         env('APP_DEBUG') ? Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class : null,
-        AltThree\Badger\BadgerServiceProvider::class,
-        AltThree\Emoji\EmojiServiceProvider::class,
-        AltThree\Twitter\TwitterServiceProvider::class,
+        CachetHQ\Badger\BadgerServiceProvider::class,
+        CachetHQ\Twitter\TwitterServiceProvider::class,
         Barryvdh\Cors\ServiceProvider::class,
         env('APP_DEBUG') ? Barryvdh\Debugbar\ServiceProvider::class : null,
         GrahamCampbell\Binput\BinputServiceProvider::class,

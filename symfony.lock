@@ -23,6 +23,12 @@
     "bugsnag/bugsnag-psr-logger": {
         "version": "v1.4.5"
     },
+    "cachethq/badger": {
+        "version": "v2.0.0"
+    },
+    "cachethq/twitter": {
+        "version": "v3.0.0"
+    },
     "chillerlan/php-qrcode": {
         "version": "2.0.8"
     },
