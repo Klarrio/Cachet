@@ -14,9 +14,6 @@
     "aws/aws-sdk-php": {
         "version": "3.212.0"
     },
-    "brick/math": {
-        "version": "0.9.3"
-    },
     "bugsnag/bugsnag": {
         "version": "v3.27.0"
     },
@@ -37,9 +34,6 @@
     },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.5"
-    },
-    "dflydev/dot-access-data": {
-        "version": "v3.0.1"
     },
     "doctrine/cache": {
         "version": "2.1.1"
@@ -95,9 +89,6 @@
     "graham-campbell/markdown": {
         "version": "14.0.x-dev"
     },
-    "graham-campbell/result-type": {
-        "version": "v1.0.4"
-    },
     "graham-campbell/security": {
         "version": "v9.1.0"
     },
@@ -131,9 +122,6 @@
     "laravel/framework": {
         "version": "v8.83.3"
     },
-    "laravel/serializable-closure": {
-        "version": "v1.1.1"
-    },
     "laravel/tinker": {
         "version": "v2.7.0"
     },
@@ -145,9 +133,6 @@
     },
     "league/commonmark": {
         "version": "2.2.3"
-    },
-    "league/config": {
-        "version": "v1.1.1"
     },
     "league/flysystem": {
         "version": "1.1.9"
@@ -172,12 +157,6 @@
     },
     "nesbot/carbon": {
         "version": "2.57.0"
-    },
-    "nette/schema": {
-        "version": "v1.2.2"
-    },
-    "nette/utils": {
-        "version": "v3.2.7"
     },
     "nexmo/client": {
         "version": "2.4.0"
@@ -256,9 +235,6 @@
     "psr/container": {
         "version": "1.1.2"
     },
-    "psr/event-dispatcher": {
-        "version": "1.0.0"
-    },
     "psr/http-client": {
         "version": "1.0.1"
     },
@@ -279,9 +255,6 @@
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
-    },
-    "ramsey/collection": {
-        "version": "1.2.2"
     },
     "ramsey/uuid": {
         "version": "4.2.3"
@@ -352,8 +325,14 @@
     "symfony/css-selector": {
         "version": "v5.4.3"
     },
+    "symfony/debug": {
+        "version": "v4.4.37"
+    },
     "symfony/deprecation-contracts": {
         "version": "v2.5.0"
+    },
+    "symfony/dotenv": {
+        "version": "v5.4.5"
     },
     "symfony/error-handler": {
         "version": "v5.4.3"
@@ -378,6 +357,9 @@
         "files": [
             ".env"
         ]
+    },
+    "symfony/http-client-contracts": {
+        "version": "v2.5.0"
     },
     "symfony/http-foundation": {
         "version": "v5.4.5"
@@ -415,9 +397,6 @@
     "symfony/polyfill-php80": {
         "version": "v1.24.0"
     },
-    "symfony/polyfill-php81": {
-        "version": "v1.24.0"
-    },
     "symfony/process": {
         "version": "v5.4.5"
     },
@@ -436,9 +415,6 @@
     },
     "symfony/service-contracts": {
         "version": "v2.5.0"
-    },
-    "symfony/string": {
-        "version": "v5.4.3"
     },
     "symfony/translation": {
         "version": "5.0",
