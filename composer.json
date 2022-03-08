@@ -38,7 +38,7 @@
         "aws/aws-sdk-php": "^3.7",
         "bugsnag/bugsnag-laravel": "^2.15",
         "chillerlan/php-qrcode": "^2.0",
-        "doctrine/dbal": "3.3.2",
+        "doctrine/dbal": "2.6",
         "fideloper/proxy": "^4.0",
         "fruitcake/laravel-cors": "^3.0.0",
         "graham-campbell/binput": "^9.0",
