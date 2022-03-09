@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "999c61e470a69c28bf6cc37eadaec2f6",
+    "content-hash": "8147ca4c094184dc71cd5ac4fab6efe5",
     "packages": [
         {
             "name": "alt-three/bus",
