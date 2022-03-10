@@ -130,14 +130,15 @@ class MetricRepository
     {
         $dateTime = $this->dates->make();
         $pointKey = $dateTime->format('Y-m-d');
-        $points = $this->repository->getPointsSinceDay($metric, 7)->pluck('value', 'key');
+        $points = $this->repository->getPointsSinceHour($metric, 168)->pluck('value', 'key');
+        // $points = $this->repository->getPointsSinceDay($metric, 7)->pluck('value', 'key');
 
         for ($i = 0; $i <= 7; $i++) {
             if (!$points->has($pointKey)) {
                 $points->put($pointKey, $metric->default_value);
             }
 
-            $pointKey = $dateTime->sub(new DateInterval('PT1W'))->format('Y-m-d');
+            $pointKey = $dateTime->sub(new DateInterval('P1D'))->format('Y-m-d');
         }
 
         return $points->sortBy(function ($point, $key) {
@@ -158,14 +159,13 @@ class MetricRepository
         $pointKey = $dateTime->format('Y-m-d');
         $daysInMonth = $dateTime->format('t');
         $points = $this->repository->getPointsSinceDay($metric, $daysInMonth)->pluck('value', 'key');
-        echo $points;
 
         for ($i = 0; $i <= $daysInMonth; $i++) {
             if (!$points->has($pointKey)) {
                 $points->put($pointKey, $metric->default_value);
             }
 
-            $pointKey = $dateTime->sub(new DateInterval('P7D'))->format('Y-m-d');
+            $pointKey = $dateTime->sub(new DateInterval('P1W'))->format('Y-m-d');
         }
 
         return $points->sortBy(function ($point, $key) {
