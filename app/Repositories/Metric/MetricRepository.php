@@ -165,7 +165,7 @@ class MetricRepository
                 $points->put($pointKey, $metric->default_value);
             }
 
-            $pointKey = $dateTime->sub(new DateInterval('P1W'))->format('Y-m-d');
+            $pointKey = $dateTime->sub(new DateInterval('P1M'))->format('Y-m-d');
         }
 
         return $points->sortBy(function ($point, $key) {
