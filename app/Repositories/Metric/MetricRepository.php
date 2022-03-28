@@ -130,7 +130,6 @@ class MetricRepository
     {
         $dateTime = $this->dates->make();
         $pointKey = $dateTime->format('Y-m-d');
-        // $points = $this->repository->getPointsSinceHour($metric, 168)->pluck('value', 'key');
         $points = $this->repository->getPointsSinceDay($metric, 7)->pluck('value', 'key');
 
         for ($i = 0; $i <= 7; $i++) {
