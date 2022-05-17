@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6d93f06fbda01963bc2bcf87c53094f",
+    "content-hash": "3b6094c0b13467f8ac5dcc78cc915797",
     "packages": [
         {
             "name": "alt-three/bus",
@@ -226,16 +226,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.12",
+            "version": "3.222.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8503d393b3ebef20241931b1abc20cb2af494cb2"
+                "reference": "007ddbbded7b753c2ceda61f3648774597a2615f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8503d393b3ebef20241931b1abc20cb2af494cb2",
-                "reference": "8503d393b3ebef20241931b1abc20cb2af494cb2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/007ddbbded7b753c2ceda61f3648774597a2615f",
+                "reference": "007ddbbded7b753c2ceda61f3648774597a2615f",
                 "shasum": ""
             },
             "require": {
@@ -311,9 +311,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.12"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.13"
             },
-            "time": "2022-05-13T18:15:34+00:00"
+            "time": "2022-05-16T18:15:06+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -3067,16 +3067,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "a3f03b3c158a3a7014c6ba553b0cb83bf7da19c4"
+                "reference": "d1bc565b23c2040fafde398a8a5db083c47928c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/a3f03b3c158a3a7014c6ba553b0cb83bf7da19c4",
-                "reference": "a3f03b3c158a3a7014c6ba553b0cb83bf7da19c4",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/d1bc565b23c2040fafde398a8a5db083c47928c0",
+                "reference": "d1bc565b23c2040fafde398a8a5db083c47928c0",
                 "shasum": ""
             },
             "require": {
@@ -3162,7 +3162,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-05-04T15:16:15+00:00"
+            "time": "2022-05-17T10:57:52+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3374,69 +3374,6 @@
             "time": "2022-01-12T15:58:51+00:00"
         },
         {
-            "name": "laravel/nexmo-notification-channel",
-            "version": "v2.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/vonage-notification-channel.git",
-                "reference": "178c9f0eb3a18d4b5682471bffca104a15d817a7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/vonage-notification-channel/zipball/178c9f0eb3a18d4b5682471bffca104a15d817a7",
-                "reference": "178c9f0eb3a18d4b5682471bffca104a15d817a7",
-                "shasum": ""
-            },
-            "require": {
-                "composer/package-versions-deprecated": "^1.8",
-                "illuminate/notifications": "~5.8.0|^6.0|^7.0|^8.0",
-                "nexmo/laravel": "^2.4",
-                "php": "^7.1.3|^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^7.0|^8.0|^9.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Illuminate\\Notifications\\NexmoChannelServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Notifications\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Nexmo Notification Channel for laravel.",
-            "keywords": [
-                "laravel",
-                "nexmo",
-                "notifications"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel/vonage-notification-channel/issues",
-                "source": "https://github.com/laravel/vonage-notification-channel/tree/v2.5.1"
-            },
-            "abandoned": "laravel/vonage-notification-channel",
-            "time": "2020-12-22T17:10:24+00:00"
-        },
-        {
             "name": "laravel/slack-notification-channel",
             "version": "v2.4.0",
             "source": {
@@ -3564,6 +3501,68 @@
                 "source": "https://github.com/laravel/tinker/tree/v2.7.2"
             },
             "time": "2022-03-23T12:38:24+00:00"
+        },
+        {
+            "name": "laravel/vonage-notification-channel",
+            "version": "v2.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/vonage-notification-channel.git",
+                "reference": "178c9f0eb3a18d4b5682471bffca104a15d817a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/vonage-notification-channel/zipball/178c9f0eb3a18d4b5682471bffca104a15d817a7",
+                "reference": "178c9f0eb3a18d4b5682471bffca104a15d817a7",
+                "shasum": ""
+            },
+            "require": {
+                "composer/package-versions-deprecated": "^1.8",
+                "illuminate/notifications": "~5.8.0|^6.0|^7.0|^8.0",
+                "nexmo/laravel": "^2.4",
+                "php": "^7.1.3|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Illuminate\\Notifications\\NexmoChannelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Notifications\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Nexmo Notification Channel for laravel.",
+            "keywords": [
+                "laravel",
+                "nexmo",
+                "notifications"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/vonage-notification-channel/issues",
+                "source": "https://github.com/laravel/vonage-notification-channel/tree/v2.5.1"
+            },
+            "time": "2020-12-22T17:10:24+00:00"
         },
         {
             "name": "lcobucci/clock",
@@ -4288,128 +4287,6 @@
                 }
             ],
             "time": "2022-04-25T19:31:17+00:00"
-        },
-        {
-            "name": "nexmo/client",
-            "version": "2.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Nexmo/nexmo-php-complete.git",
-                "reference": "9d515f6592d466159f79dde460ce2b99b8128279"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Nexmo/nexmo-php-complete/zipball/9d515f6592d466159f79dde460ce2b99b8128279",
-                "reference": "9d515f6592d466159f79dde460ce2b99b8128279",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.0",
-                "nexmo/client-core": "^2.0",
-                "php": ">=7.2"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tim Lytle",
-                    "email": "tim@nexmo.com",
-                    "homepage": "http://twitter.com/tjlytle",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Michael Heap",
-                    "email": "michael.heap@vonage.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Lorna Mitchell",
-                    "email": "lorna.mitchell@vonage.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Chris Tankersley",
-                    "email": "chris.tankersley@vonage.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP Client for using Nexmo's API.",
-            "support": {
-                "email": "devrel@nexmo.com",
-                "source": "https://github.com/Nexmo/nexmo-php-complete/tree/2.4.0"
-            },
-            "time": "2020-09-10T18:41:31+00:00"
-        },
-        {
-            "name": "nexmo/client-core",
-            "version": "2.9.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Nexmo/nexmo-php.git",
-                "reference": "5feed4876c603423c52eb751d1b46de9d60d1ceb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Nexmo/nexmo-php/zipball/5feed4876c603423c52eb751d1b46de9d60d1ceb",
-                "reference": "5feed4876c603423c52eb751d1b46de9d60d1ceb",
-                "shasum": ""
-            },
-            "require": {
-                "composer/package-versions-deprecated": "^1.11",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "laminas/laminas-diactoros": "^2.4",
-                "lcobucci/jwt": "^3.4|^4.0",
-                "php": ">=7.2",
-                "psr/container": "^1.0",
-                "psr/http-client-implementation": "^1.0",
-                "psr/log": "^1.1",
-                "vonage/nexmo-bridge": "^0.1.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": ">=6",
-                "helmich/phpunit-json-assert": "^3.3",
-                "php-http/mock-client": "^1.4",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^8.5|^9.4",
-                "roave/security-advisories": "dev-latest",
-                "softcreatr/jsonpath": "^0.6.4",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Vonage\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Chris Tankersley",
-                    "email": "chris.tankersley@vonage.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Lorna Mitchell",
-                    "email": "lorna.mitchell@vonage.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Deprecated PHP Client for using Vonage's API - please use vonage/client-core",
-            "homepage": "https://developer.nexmo.com",
-            "support": {
-                "docs": "https://developer.nexmo.com",
-                "email": "devrel@vonage.com",
-                "issues": "https://github.com/Vonage/vonage-php-sdk-core/issues",
-                "source": "https://github.com/Vonage/vonage-php-sdk-core"
-            },
-            "time": "2021-04-30T21:42:12+00:00"
         },
         {
             "name": "nexmo/laravel",
@@ -7964,16 +7841,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.4.0",
+            "version": "v3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ed19f4bf9d19c4ef920b5d8243910bd32e85b9ba"
+                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed19f4bf9d19c4ef920b5d8243910bd32e85b9ba",
-                "reference": "ed19f4bf9d19c4ef920b5d8243910bd32e85b9ba",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e939eae92386b69b49cfa4599dd9bead6bf4a342",
+                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342",
                 "shasum": ""
             },
             "require": {
@@ -8024,7 +7901,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.4.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.4.1"
             },
             "funding": [
                 {
@@ -8036,7 +7913,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-15T06:25:28+00:00"
+            "time": "2022-05-17T05:48:52+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
