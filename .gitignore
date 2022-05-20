@@ -10,3 +10,8 @@ Homestead.yaml
 npm-debug.log
 .env
 package-lock.json
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
