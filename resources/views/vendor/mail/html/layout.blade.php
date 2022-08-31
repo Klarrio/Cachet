@@ -40,13 +40,10 @@
 
                                         {{ $subcopy ?? '' }}
                             </table>
-                        </td>
-                    </tr>
 
                     {{ $footer ?? '' }}
                 </table>
-            </td>
-        </tr>
+
     </table>
 </body>
 </html>
