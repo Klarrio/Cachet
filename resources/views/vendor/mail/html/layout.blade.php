@@ -39,9 +39,9 @@
                                         {{ Illuminate\Mail\Markdown::parse($slot) }}
 
                                         {{ $subcopy ?? '' }}
-                                    </td>
-                                </tr>
                             </table>
+                        </td>
+                    </tr>
 
                     {{ $footer ?? '' }}
                 </table>
